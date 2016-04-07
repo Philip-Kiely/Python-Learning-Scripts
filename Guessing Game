@@ -1,0 +1,16 @@
+import random
+
+a = random.randint(1, 99)
+while a >= 1 and a <= 99:
+    print ("Guess a number")
+    b = input()
+    b = int(b)
+    if b > a:
+        print ("too high, guess again")
+    elif b < a:
+        print ("too low, guess again")
+    elif b == a:
+        print ("correct")
+    else:
+        pass
+        
